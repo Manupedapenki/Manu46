@@ -13,4 +13,6 @@ for model in client.models.list():
     if 'generateContent' in model.supported_actions:
         print(f"-> Model ID: {model.name}")
 
+        
+
 
